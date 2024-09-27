@@ -1,0 +1,72 @@
+JAVA
+Java Compiler -> Un compilador es un programa que traduce el código escrito en un lenguaje de programación humano legible a un código de bajo nivel entendido por computadora.
+Archivo Binario -> También conocido como ejecutable. Es el resultado de compilar el código fuente de un programa. Este archivo corre dentro del JVM
+
+JRE -> Java Runtime Environment : Software que proporciona la plataforma necesaria para ejecutar aplicaciones JAVA
+JDK -> Java Development Kit : Son herramientas que permite que los programadores puedan crear software en lenguaje JAVA
+
+Variable -> Es un contenedor que almacena datos.
+  boolean = 1 o 0 / 'true' o 'false'
+  int = Numero entero. Ejm. int edad = 35;
+  long = Numero muy grande. Ejm long distanciaTierraSol = 149000000000L;
+  float = Para numeros decimales pequeños y medianos Ejm. float numeroDecimal = 6.9f;
+  double = Números decimales grandes. Ejm. double numeroDecGrande = 79798787465.46546546D;
+  char = Letra o caracter, solo una. Ejm. char = 'a';
+  String = Cadena de caracteres. Siempre entre comilla doble. Siempre empieza con mayuscula. Ejm. String saludo = "Hola Mundo";
+  byte = Va de 128 a -128. Ejm. byte codigo = 123;
+  short = Numero corto que va del 32000 al -32000(Referencial). Ejm. short phone = 311586;
+
+Variable Final o Constante -> Es un valor que no puede cambiar una vez que ha sido asignado su valor inicial.
+  Ejemplo:
+    final int ci = 654789;//Nunca cambiara este valor
+    final float gravedad = 6.9f;
+
+Variables Primitivas -> Empiezan con minuscula. El valor que le demos será el valor que tiene.
+  Las variables primitivas no pueden ser NULAS.
+
+Objetos -> Empiezan con mayúscula. Guarda la referencia no guarda el valor como en las primitivas.
+  Ejm.
+    int a = 5; //Tiene el valor de 5
+    int b = a; //Tiene el valor de 5
+    Integer c = 10; //Guarda la referencia a 10
+    Integer d = c; //Guarda la referencia a 10
+
+Null -> Es un valor que puede ser asignado a cualquier tipo mientras no sea de tipo primitivo.
+  int a = null; X
+  Integer a = null; (Correcto)
+
+Operaciones
+  Suma -> Se una el caracter (+). Las variables a sumar deben ser número. Caso contrario los concatena.
+    int a = 5, b = 5; => a+b=10
+    int a = 5; String b = "cinco" => a+b="5cinco";
+  Resta -> Se usa el caracter (-). {LM que suma}
+  Multiplicación -> Se usa el caracter (*). Solo funciona con números.
+    int a = 5, b = 5; => a*b=25
+  Divición -> Se usa el caracter (/). Su resultado generalmente en un float.
+    int a = 10, b = 5; => float c = a/b=2
+  Módulo -> Se usa el caracter(%). Es el residuo de una divición
+    int a = 10, b = 5; => int c = a%b=0
+
+Operaciones Conbinadas
+  int a = 5; int b = 2;
+  a += b; =>  a=7
+  a -= b; =>  a=3
+  a *= b; =>  a=10
+  a /= b; => float a=2.5
+  a %= b; =>  a=1
+  a++; => a=6;
+  a--; => a=4;
+
+Operaciones Complejas
+
+
+
+
+
+
+
+
+
+
+
+  
