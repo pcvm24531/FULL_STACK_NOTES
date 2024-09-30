@@ -58,6 +58,49 @@ Operaciones Conbinadas
   a--; => a=4;
 
 Operaciones Complejas
+  int a = 5;
+  int b = 10;
+
+  1.- El minimo de 5 numeros => Math.min(a,b); = a
+  2.- El valor absoluto de un numero => Math.abs(5); = a (Positivo)
+  3.- La potencia de un numero => Math.pow(a,2); => a*a = 25 (El retorno es de tipo double)
+  4.- La raiz cuadrada de un numero => Math.srqt(25); = 5 (El retorno es de tipo double)
+  5.- Redondeo de un numero => Math.round(3.7); = 4 (Redondeo hacia arriba)
+  6.- Redondeo hacia abajo => Math.floor(3.7); = 3 (Redondeo hacia abajo)
+  7.- Redondeo hacia arriba => Math.ceil(3.7): = 4 (Redondeo hacia arriba)
+  8.- PI => Math.PI=3.14.15.16.......
+
+Operaciones Lógicas
+  Operador de Igualdad de datos primitivas (==)
+    boolean iguales = a==b; => false
+  Operador de Igualdad de objetos (equals())
+    String c = "Hola";
+    String d = "hola";
+    boolean igualdad = c.equals(d); => false
+  Operador de Diferente datos primitivos (!=)
+  Operador de Comparación menor que (<)
+  Operador de Comparación menor igual que (<=)
+  Operador de Comparación mayor que (>)
+  Operador de Comparación mayor igual que (>=)
+  Operador AND o (&&)
+  Operador OR o (||)
+  Operador Negacion o ( ! )
+
+Estucturas condicionales
+if
+else if
+else
+switch  (variable){
+  case 1 -> {
+    //Hacer algo
+  }
+  case 2 -> {
+    //hacer algo
+  }
+  default -> {
+    //hacer algo
+  }
+}
 
 
 
