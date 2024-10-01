@@ -87,20 +87,53 @@ Operaciones Lógicas
   Operador Negacion o ( ! )
 
 Estucturas condicionales
-if
-else if
-else
-switch  (variable){
-  case 1 -> {
-    //Hacer algo
-  }
-  case 2 -> {
-    //hacer algo
-  }
-  default -> {
-    //hacer algo
-  }
-}
+    if
+    else if
+    else
+    switch  (variable){
+      case 1 -> {
+        //Hacer algo
+      }
+      case 2 -> {
+        //hacer algo
+      }
+      default -> {
+        //hacer algo
+      }
+    }
+
+Estuctura de Carpets y Paquetes
+  /src/ -> Es la carpeta donde se aloja el código
+
+  Package -> Es una forma de organizar y estructurar clases realacionadas dentros de un proyecto. Es un identificador de nuestro programa.
+
+POO -> La programación orientada a objetos es un paradigma de programación, donde los programas se estructuran al rededor de los objetos.
+Objeto -> Tiene atributos(Datos) y métodos(Funciones).
+Clase -> Un objeto es una instancia única de una clase que contiene daos y métodos.
+  Una clase representa una entidad del mundo real o un concepto abstracto y encapsula su estado y comportamiento.
+Instanciar -> Instnciar es crear un objeto a partir de una clase.La instancia permite acceder y utilizar sus caracteristicas y funcionalidades.
+Argumentos -> Los argumentos son valores que se pasan a una función para proporcionar datos de entrada necesarios para su ejecución.
+Field -> Un field es una variable que almacena datos específicos para cada instancia de esa clase.
+Constructor -> Un constructor es un método especial que se usa para inicializar objetos de una clase. Se invoca automaticamente cuando se crea una instancia de la clase
+  y se utiliza para asignar valores iniciales a los atributos del objeto.
+Método -> Conjunto de insrucciones específicas, devuelven valores cuando son invocados desde otras partes del programa.
+Modificadores de Acceso
+  -private -> Solo los miembros de la clase pueden acceder y modificar las variables.
+  -protected -> Solo pueden acceder los que se encuentren dentro del mismo paquete o los que hereden de la clase.
+  -public -> Se puede acceder desde cualquier parte del programa.
+  -static -> Palabra clave que se puede usar con los modificadores de acceso
+Herencia -> Es un mecanisno que permite heredar atributos y métodos de una clase a otra.
+Clase Abstracta -> Es una clase que no se puede instaciar de manera directa. Se utilizan para definir una estructura común como base para ser heredada.
+Método Abstracto -> Es un método que pertenece a una clase abstracta
+Tipos de clases
+  -Interface -> Es una estructura que define un conjunto de métodos que una clase debe implementar. Una clase puede implementar múltiples clases.
+  -Enums -> Un tipo de clase que define un conjunto fijo de constantes con nombre.
+  -Record -> Un tipo de clase recientemente implementado, sirven para guardar valores inmutables.
+Casting -> Es el proceso de convertir un objeto de un tipo dato a otro  tipo de dato compatible.
+Argumento de tipo -> Los argumentos de tipo son parámetros que se utilizan para definir el tipo de datos que una funcion o clase puede aceptar como argumento o devolver.
+
+
+
 
 
 
