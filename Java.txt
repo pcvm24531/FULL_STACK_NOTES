@@ -132,7 +132,12 @@ Tipos de clases
 Casting -> Es el proceso de convertir un objeto de un tipo dato a otro  tipo de dato compatible.
 Argumento de tipo -> Los argumentos de tipo son parámetros que se utilizan para definir el tipo de datos que una funcion o clase puede aceptar como argumento o devolver.
 
-
+Mapa -> Un mapa es una estructura de datos que asocia claves con valores.
+  HashMap<String, String> mapaDePaises = new HashMap<>();
+  mapaDePaises.put("key","value"); => Agrear elementos.
+  mapaDePaises.remove("key","value"); => Eliminar un elemento.
+  mapaDePaises.clear(); => Elimina todos los elementos del mapa.
+  int tamanio = mapaDePaises.size(); => Obtener el tamaño del hash
 
 
 
