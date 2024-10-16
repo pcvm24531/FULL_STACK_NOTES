@@ -18,6 +18,8 @@ Angular es un framework de trabajo
 **********Crear compnentes******
 11. $>ng generate component componentName -> si solo ng no funciona anteponer (npx)
 11.1. $>ng g c compnentName
+*********Inicializar un proyecto***************
+12. npm start -> Debemos estar situados dentro del proyecto.
 
 
 **************Conceptos******************
@@ -33,6 +35,12 @@ COMPONENTES: Es fundamental para la creación de interfaces de usuario(UI). Son 
 específica de la interfaz de usuario de la aplicación
 Cada componete representa un elemento visual o funcional de una página web(Ej. header, footer, form, ul, etxc.).
 Los componentes son unidades funcionales que se ven y se reutilizan.
+Los componentes están compuestos de cuatro archivos
+  1.El componente(nombreDelComponente.ts)
+  2.El HTML de la plantilla(nombreDelComponente.html)
+  3.El CSS de estillos(nombreDelComponente.css)
+  4.El test, archivo de prueba(nombreDelComponente.spec.ts)
+
   Bloques de UI.
   Definen vistas y lógica.
   Usan clases TypeScript.
@@ -41,4 +49,11 @@ Los componentes son unidades funcionales que se ven y se reutilizan.
   Altamente reutilizables.
   Se encapsulan.
   Jerarquia de la UI.
-
+ENLACES DE DATOS: Es la capacidad de conectar y sincronizar los datos entre modelo y la vista.
+Es una caracteristica fundamental que permite que los cambios del modelo se reflejen en la vista y viceversa de manera automática.
+  Conexión Automática: Sincroniza datos entre modelo y vista.
+  Unidireccional: Los cambios del modelo se reflejan en la vista.
+  Bidireccional: Los cambios en la vista actualizan el modelo.
+  Reactivo: Usa observables para actualizar en tiempo real.
+  Simplifica Interacción: Facilita la reacción de aplicaciones interactivas.
+  Automatiza Actualizaciones: Cambios se reflejan sin intervención manual.
