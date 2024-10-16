@@ -57,3 +57,10 @@ Es una caracteristica fundamental que permite que los cambios del modelo se refl
   Reactivo: Usa observables para actualizar en tiempo real.
   Simplifica Interacción: Facilita la reacción de aplicaciones interactivas.
   Automatiza Actualizaciones: Cambios se reflejan sin intervención manual.
+METADATA: Se refiere a la información adicional que se proporciona mediante decoradores en clases que definen componentes, módulos, servicios y otras paartes de una aplicación.
+La metadata se usa para configurar y personalizar el comportamiento de la aplicación.
+Los decoradores @Component, @NgModule, @Injectable, entre otros se usan para adjuntar esta en metadatas a las clases.
+INTERCAMBIO DE INFORMACIÓN NETRE COMPONENTES: Los componentes se comunica mediante la entrada y salida.
+Un padre pasa datos a su hijo mediante propiedades de entrada, y un hijo emite eventos mediante propiedades de salida.
+
+
