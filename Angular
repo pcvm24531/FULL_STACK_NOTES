@@ -64,3 +64,9 @@ INTERCAMBIO DE INFORMACIÓN NETRE COMPONENTES: Los componentes se comunica media
 Un padre pasa datos a su hijo mediante propiedades de entrada, y un hijo emite eventos mediante propiedades de salida.
 
 
+
+
+
+
+
+
