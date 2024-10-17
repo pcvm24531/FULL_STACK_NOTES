@@ -63,8 +63,51 @@ Los decoradores @Component, @NgModule, @Injectable, entre otros se usan para adj
 INTERCAMBIO DE INFORMACIÓN NETRE COMPONENTES: Los componentes se comunica mediante la entrada y salida.
 Un padre pasa datos a su hijo mediante propiedades de entrada, y un hijo emite eventos mediante propiedades de salida.
 
+  INPUT
+    1.HIJO: puede definir propiedades de entrada utilizando @Input() -> esta propiedad representa los datos que se recibirán.
+      //Componente hijo
+      Ej: @Input() datoEntrada: string;
+    2.PADRE: puede vincular los datos a la propiedad de entrada del HIJO mediante corchetes
+      //Componente padre
+      Ej: <app-hijo [datoEntrada]="valorDesdePadre" />
+    3.PADRE: cuando el valor de la propiedad de entrada PADRE cambia => Angular actualiza la propiedad de entrada en el HIJO
+      Ej: //Componente Padre
+          valorDesdePadre = "Hola mundo";
+    4.HIJO: hace uso de la propiedad de entrada como cualquier propiedad local
+      Ej: //Template componente hijo
+          <p>{{ datoEntrada }}</p>
 
-
+  OUTPUT
+    1.HIJO: se usa @Output y EventEmiter para comunicar un componente hijo y su componente padre.
+      //Componente Hijo
+      Ejm: @Output() messageEvent = new EventEmitter<string>();
+          message:string ='';
+          sendMessage(){
+            this.messageEvent.emit(this.message);
+          }
+    2.HIJO: archivo HTML del componente hijo. Incluye un input para que el usuario ingrese contenido.
+      Utiliza ngModel para vinvular el input con pa propiedad message del componente.ts
+      //Template componente hijo
+      Ej:<div>
+            <label for="childInput">Mensaje:</label>
+            <input id="childInput" [(ngModel)]="message" />
+            <button (clcik)="sendMessage()">Enviar Mensaje</button>
+          </div>
+    3.PADRE: el componente padre tiene la propiedad "receivedMessage" que almacena mensajes recibidos del componente hijo
+      //Component Padre
+      Ej:
+        receivedMessage: string = '';
+        reseiveMessage(message: string){
+          this.receivedMessage = message;
+        }
+    4.PADRE: plantilla componente padre, utiliza el evento "messageEvent", para llamar al método "receiveMessage", cuando se emite un
+      mensaje desde el componente hijo.
+      //Template componente padre
+      Ej:
+        <div>
+          <app-hijo (messageEvent)="receiveMessage($event)" />
+          <p>Mensaje recibido en el padre: {{ receivedMessage }}
+        </div>
 
 
 
