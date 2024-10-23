@@ -1,10 +1,16 @@
 ***** MONGO DB *****
 Mongo Compass es el gestor de mongoDB
 Uso desde linea de comandos
-$db -> Muestra la base de datos donde esta situado el cursor.
-$show dbs -> muestra las bases de datos
-$use myDB -> Nos permite cambioar a la db myDB
-$show collectors -> Nos permite ver todas la colecciones(Tablas) de la base de datos.
+$ db -> Muestra la base de datos donde esta situado el cursor.
+$ show dbs -> muestra las bases de datos
+$ use myDB -> Nos permite cambioar a la db myDB
+$ show collections -> Nos permite ver todas la colecciones(Tablas) de la base de datos.
+
+$ db.CollectionName.find() -> Muestra el contenido de una collecion.
+$ db.ColectionsName.find().pretty() -> Muestra los resultados de manera más organizada.
+$ db.ColectionsName.find().limit(10) -> Muestra los resultados en un numero limite determinado.
+$ db.ColectionsName.find( {"edad": { "$gte" : 18 } } ) -> Buscar datos que coincidan con un criterio específico.
+
 $ db.myCollection.insertOne({....JSON....}) -> Nos permite insertar un registro
 $ db.createCollection("products") -> Crea una nueva colleccion de datos
 $ db.products.drop() -> Elimina una collección de datos.
