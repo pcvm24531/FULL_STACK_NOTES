@@ -1,4 +1,4 @@
-********Instalación Angular************
+***********INSTALAR ANGULAR************
 Angular es un framework de trabajo
 1. Tener instalado node y tambien npm
 2. ejecutar $>npm install -g @angular/cli -> Instalará la última versión de angular
@@ -8,21 +8,21 @@ Angular es un framework de trabajo
 5. En variables del sistema, buscar la variable PATH y agregar C:\Users\Pvargas\AppData\Roaming\npm aceptar y guardar.
 6. $>npm uninstall -g @angular/cli  -> Desinstala en angular
 7. $npm cache clean --force -> Limpiar cache para evitar conflictos con versiones antiguas
-**********Instalar una versión específica********
+**********INSTALAR VErSION ESPECÍFICA********
 8. $>npm install -g @angular/cli@16.2.16
 **********Crear un proyecto**********
 9. $>ng new my-app -> Si no reconoce el comando se puede anteponer (npx)
-**********Crear Módulos***********
+**********CREAR MÓDULOS***********
 10. $>ng generate module moduloName -> si solo ng no funciona anteponer (npx)
 10.1. $>ng g m  moduleName -> si solo ng no funciona anteponer (npx)
-**********Crear compnentes******
+**********CREAR COMPONENTES*********
 11. $>ng generate component componentName -> si solo ng no funciona anteponer (npx)
-11.1. $>ng g c compnentName
+11.1. $>ng g c componentName
 *********Inicializar un proyecto***************
 12. npm start -> Debemos estar situados dentro del proyecto.
 
 
-**************Conceptos******************
+**************CONCEPTOS****************
 MODULOS: Es un mecanismo de organización y encapsulación que se usa para agrupar componentes, directivas, pipes.
 Los módulos ayudab a dividir una aplicación en partes mas pequeñas y manejables, lo que facilita el desarrollo, la mantenibilidad y escalabilidad.
   Unidades organizativas.
