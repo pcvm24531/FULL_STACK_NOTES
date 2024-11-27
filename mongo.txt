@@ -14,6 +14,7 @@ $ db.ColectionsName.find( {"edad": { "$gte" : 18 } } ) -> Buscar datos que coinc
 $ db.myCollection.insertOne({....JSON....}) -> Nos permite insertar un registro
 $ db.createCollection("products") -> Crea una nueva colleccion de datos
 $ db.products.drop() -> Elimina una collección de datos.
+$ db.users.updateOne( {_id: ObjectId('672e0c523b918489d380fdbe')}, {$set: {username:'locoto'} } ) -> Modificar el valor de un registro
 $myDB db.dropDatabase() -> Elimina la base de datos donde esta situado
 
 ***** TIPOS DE DATO *****
