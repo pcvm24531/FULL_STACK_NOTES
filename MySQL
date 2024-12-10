@@ -1,0 +1,15 @@
+Conectar a mysql api
+1.- EN maquina local conectar de la siguiente manera
+    $ mysql -u root -p
+2.- Opción 2
+  $ mysql -u root -p -h localhost
+  $ Enter password: Contraseña
+3.-Conectar de manera directa a una base de datos
+  $mysql -u root -p -h localhost mi_base_de_datos
+
+Comandos
+SHOW DATABASES; -- Listar todas las bases de datos
+USE nombre_base; -- Seleccionar una base de datos
+SHOW TABLES; -- Listar tablas en la base seleccionada
+
+EXIT; -- Para cerrar la conexión
