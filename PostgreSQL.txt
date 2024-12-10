@@ -9,6 +9,7 @@ $ SELECT * FROM pg_database WHERE datname = 'test_data';  -> Buscar una base de 
 \l    —> lista las bases de datos existentes
 \c   —> cambiar a otra base de datos ( \c nueva_base ) por ejemplo
 \d   —> ver definiciones de una tabla ( \d tabla) por ejemplo
+\dt  -> Ver lista de tablas 
 \dn   —> listar los esquemas
 \dn+   —> listar los esquemas con más detalles de privilegios y la descripción
 \df   —> listar definiciones
