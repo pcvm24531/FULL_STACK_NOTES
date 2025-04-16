@@ -11,5 +11,6 @@ Comandos
 SHOW DATABASES; -- Listar todas las bases de datos
 USE nombre_base; -- Seleccionar una base de datos
 SHOW TABLES; -- Listar tablas en la base seleccionada
+DESCRIBE nombre_tabla; -- Muestra la estructura de la tabla
 
 EXIT; -- Para cerrar la conexión
