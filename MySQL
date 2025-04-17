@@ -1,3 +1,4 @@
+Insignia 24.
 Conectar a mysql api
 1.- EN maquina local conectar de la siguiente manera
     $ mysql -u root -p
@@ -8,9 +9,13 @@ Conectar a mysql api
   $mysql -u root -p -h localhost mi_base_de_datos
 
 Comandos
+CREATE DATABASE bitacora_pagos_db; -- Creamos una base de datos
+DROP DATABASE nombre_de_la_base; -- Eliminar base de datos
 SHOW DATABASES; -- Listar todas las bases de datos
 USE nombre_base; -- Seleccionar una base de datos
 SHOW TABLES; -- Listar tablas en la base seleccionada
+SHOW CREATE TABLE tableName; -- Muestra detalladamente la defición de la tabla(script)
 DESCRIBE nombre_tabla; -- Muestra la estructura de la tabla
+
 
 EXIT; -- Para cerrar la conexión
