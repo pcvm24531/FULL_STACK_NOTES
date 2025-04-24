@@ -16,6 +16,7 @@ USE nombre_base; -- Seleccionar una base de datos
 SHOW TABLES; -- Listar tablas en la base seleccionada
 SHOW CREATE TABLE tableName; -- Muestra detalladamente la defición de la tabla(script)
 DESCRIBE nombre_tabla; -- Muestra la estructura de la tabla
-
+ALTER TABLE nombre_de_tu_tabla DROP COLUMN nombre_de_la_columna; -- ELIMINAR una columna
+ALTER TABLE usuarios MODIFY nombre VARCHAR(100); -- MODIFICAR una columna
 
 EXIT; -- Para cerrar la conexión
