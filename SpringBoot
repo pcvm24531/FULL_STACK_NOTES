@@ -1,0 +1,4 @@
+Ejecutar proyecto spring
+./gradlew bootRun  --> Gradle
+
+mvn spring-boot:run  --> Maven
