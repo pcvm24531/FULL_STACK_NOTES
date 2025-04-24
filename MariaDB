@@ -1,0 +1,19 @@
+Conectar a MariaDB/MySQL
+$mysql -u root -p
+$ingresar password M4r14DB
+**************
+CREAR DB
+$create database myDB character set utf8mb4 collate utf8mb4_general_ci;  -> Creamos nueva base de datos
+$show databases;  --> Mostrar las bases de datos creadas
+$use myDB   --> Conectar a nuestra base de datos de trabajo
+
+*************************
+VERIFICAR INSTALACION
+$sc query "MariaDB"
+*******************
+INICIO AUTOMATICO
+sc config "MariaDB" start= auto
+INICIO MANUAL
+net start MariaDB (Windows CMD)
+
+Start-Service MariaDB (Windows PowerShell)
