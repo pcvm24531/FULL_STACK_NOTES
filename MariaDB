@@ -15,5 +15,9 @@ INICIO AUTOMATICO
 sc config "MariaDB" start= auto
 INICIO MANUAL
 net start MariaDB (Windows CMD)
-
 Start-Service MariaDB (Windows PowerShell)
+
+**************************
+Verificar PUERTO DB
+$sudo ss -tuln | grep 3306 (Linux)
+
