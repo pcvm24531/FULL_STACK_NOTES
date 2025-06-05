@@ -28,6 +28,20 @@ RENAME TABLE prodictos to producto;
 2.-Modificar el nombre de un campo
 ALTER TABLE producto CHANGE nombre nombre_producto VARCHAR(100);
 3.-Agregar un campo en una tabla
-ALTER TABLE producto ADD descripcion TEXT AFTER nombre_producto;
+ALTER TABLE producto ADD descripcion TEXT AFTER nombre_producto; B
 4.-Eliminar campo en una tabla
 ALTER TABLE producto DROP descripcion;
+5.- Eliminar un fereing key
+ALTER TABLE nombreTabla DROP FOREIGN KEY fk_tabla1_tabla2;
+
+
+***************************
+Listar las claves foraneas de una tabla
+SELECT 
+    TABLE_NAME, 
+    CONSTRAINT_NAME, 
+    COLUMN_NAME, 
+    REFERENCED_TABLE_NAME, 
+    REFERENCED_COLUMN_NAME 
+FROM information_schema.KEY_COLUMN_USAGE
+WHERE TABLE_NAME = 'nombreTabla';
