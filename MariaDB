@@ -24,15 +24,17 @@ $sudo ss -tuln | grep 3306 (Linux)
 *****************
 COMANDOS CLAVE
 1.Modificar el Nombre de una tabla
-RENAME TABLE prodictos to producto;
+    RENAME TABLE prodictos to producto;
 2.-Modificar el nombre de un campo
-ALTER TABLE producto CHANGE nombre nombre_producto VARCHAR(100);
+    ALTER TABLE producto CHANGE nombre nombre_producto VARCHAR(100);
 3.-Agregar un campo en una tabla
-ALTER TABLE producto ADD descripcion TEXT AFTER nombre_producto; B
+    ALTER TABLE producto ADD descripcion TEXT AFTER nombre_producto; B
 4.-Eliminar campo en una tabla
-ALTER TABLE producto DROP descripcion;
+    ALTER TABLE producto DROP descripcion;
 5.- Eliminar un fereing key
-ALTER TABLE nombreTabla DROP FOREIGN KEY fk_tabla1_tabla2;
+    ALTER TABLE nombreTabla DROP FOREIGN KEY fk_tabla1_tabla2;
+6.- Agregar claves foraneas/constraint a una tabla
+    ALTER TABLE producto ADD CONSTRAINT fk_producto_proveedor FOREIGN KEY (idProveedor) REFERENCES proveedor(id) ON DELETE CASCADE;
 
 
 ***************************
