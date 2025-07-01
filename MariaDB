@@ -35,7 +35,8 @@ COMANDOS CLAVE
     ALTER TABLE nombreTabla DROP FOREIGN KEY fk_tabla1_tabla2;
 6.- Agregar claves foraneas/constraint a una tabla
     ALTER TABLE producto ADD CONSTRAINT fk_producto_proveedor FOREIGN KEY (idProveedor) REFERENCES proveedor(id) ON DELETE CASCADE;
-
+7.- Agregar indice a un campo de una tabla
+    ALTER TABLE productos ADD INDEX idx_nombre (nombre);
 
 ***************************
 Listar las claves foraneas de una tabla
