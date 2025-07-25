@@ -50,3 +50,10 @@ SELECT
     REFERENCED_COLUMN_NAME 
 FROM information_schema.KEY_COLUMN_USAGE
 WHERE TABLE_NAME = 'nombreTabla';
+***************************
+Exportar base de datos
+1.-Exportamos base de datos por linea de comando
+    $ mysqldump -u usuario -p nombre_basedatos > respaldo.sql
+2.-Importar base de datos a partir de un archivo exportado
+    $ mysql -u usuario -p nombre_basedatos < respaldo.sql
+
