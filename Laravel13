@@ -1,0 +1,5 @@
+Comandos
+$ php artisan serve  -> Nos permite correr el laravel
+$ php artisan migrate  -> Nos permimte conectar a la base de datos y crear las tablas
+$ php artisan make:model User ->  Creamos el modelo de usuario
+$ php artisan route:list  ->  Muestra una lista de las rutas guardadas o ruteadas
