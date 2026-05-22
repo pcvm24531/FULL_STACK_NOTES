@@ -1,0 +1,4 @@
+Comandos
+$ npm create vue@latest -> Creamos un proyecto vuejs con la última versión
+$ npm install -> Para descargar las dependencias
+$ npm run dev -> Para correr el proyecto vue en desarrollo
