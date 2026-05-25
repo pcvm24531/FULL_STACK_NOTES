@@ -4,3 +4,8 @@ $ php artisan migrate  -> Nos permimte conectar a la base de datos y crear las t
 $ php artisan make:model User ->  Creamos el modelo de usuario
 $ php artisan route:list  ->  Muestra una lista de las rutas guardadas o ruteadas
 $ php artisan make:controller nombreFileController --resources  ->  Creamos un controlador
+$ php artisan make:request StoreCategoriaResource  ->  Creamos un archivo para validar los datos a guardar.
+$ php artisan lang:update  ->  Actualiza los directorios
+
+
+$ composer require laravel-lang/common  ->  Instalamos paquete de lenguaje
