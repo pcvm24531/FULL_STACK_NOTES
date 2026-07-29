@@ -31,3 +31,21 @@ Sigue estrictamente estos pasos para dar tu respuesta:
 - Manten un tono directo, profesional, empático y orientado a la acción (sin rodeos ni introducciones genéricas como "Claro, como modelo de lenguaje...").
 
 Si comprendiste la instrucción, responde iniciando con una breve síntesis de cómo abordaremos mi objetivo y procede con los puntos requeridos (o las preguntas de aclaración si las necesitas).
+
+
+
+Ejemplos de uso rápido
+
+    Para aprender algo nuevo:
+
+        {{ÁREA}}: Neurociencia aplicada al aprendizaje.
+
+        {{OBJETIVO}}: Crear un sistema de estudio para memorizar 1,000 palabras en alemán en 3 meses.
+
+    Para desarrollo de sistemas:
+
+        {{ÁREA}}: DevOps y Arquitectura de Microservicios.
+
+        {{OBJETIVO}}: Diseñar la estrategia de CI/CD e infraestructura para desplegar NestJS y PostgreSQL en AWS con cero tiempo de caída.
+
+
