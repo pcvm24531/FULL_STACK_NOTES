@@ -12,4 +12,18 @@ Coamando para instalar Docker
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 $ sudo docker ps  -> comando para ejecutar docker
 
-Ejecutar un contenedor
+DOCKER
+Los contenedores reutilizan el KERNEL del SO
+CREAR UN CONTENEDOR CON:
+$ docker run -it -d ubuntu
+$ docker run -it -d alpine
+$ docker run -it -d debian:buster(versión específica de debian)
+
+$ docker ps -> Listar contenedores
+$ docker exec -it c62(Identificador del contenedor) /bin/bash -> Entramos dentro del contenedor
+$ cat /etc/*release* -> Comando muestra la información del contenedor
+$ cd /root 
+$ echo "Cualquier contenido >> archivo.txt -> Creamos el archivo, este archivo no estara disponible en la maquina real
+$ exit -> Sale del contenedor
+
+$ docker stats  ->  Muestra los recursos que esta consumiendo
